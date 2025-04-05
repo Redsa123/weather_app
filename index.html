@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/J4koU6Ck2K7EGz0pPalz6a6aonE7p6UibX39j6x9a4V5Yy5H1N6Z9z5+5k5e5k5e5k5e5k5e5k5e5k5e5k"
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Weather App</h1>
+            <input type="text" id="cityInput" placeholder="Enter city" />
+            <button id="getWeather">Get Weather</button>
+            <div id="weatherData"></div>
+            <div id="favorites">
+                <h3>Favorite Cities</h3>
+                <ul id="favoritesList"></ul>
+            </div>
+            <div id="messageContainer" class="message"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
